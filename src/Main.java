@@ -1,4 +1,5 @@
 import Task1.task1;
+import Task2.task2;
 
 import java.util.Scanner;
 
@@ -9,7 +10,7 @@ public class Main {
         int choice = scanner.nextInt();
         switch (choice) {
             case 1 -> task1.runTask1();
-//            case 2 -> task2.run();
+            case 2 -> task2.runTask2();
 //            case 3 -> task3.run();
 //            case 4 -> task4.run();
             default -> System.out.println("Такого задания нет :(");
