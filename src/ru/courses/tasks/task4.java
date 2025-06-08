@@ -1,4 +1,4 @@
-package Task4;
+package ru.courses.tasks;
 
 public class task4 {
     public static void runTask4() {

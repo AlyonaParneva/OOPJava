@@ -1,11 +1,14 @@
-package Task2;
+package ru.courses.tasks;
+
+import ru.courses.geometry.Line;
+import ru.courses.geometry.PointForTask2;
 
 public class task2 {
     public static void runTask2() {
-        Point a = new Point(1, 3);
-        Point b = new Point(5, 8);
-        Point c = new Point(10, 11);
-        Point d = new Point(15, 19);
+        PointForTask2 a = new PointForTask2(1, 3);
+        PointForTask2 b = new PointForTask2(5, 8);
+        PointForTask2 c = new PointForTask2(10, 11);
+        PointForTask2 d = new PointForTask2(15, 19);
 
         Line line1 = new Line(a, b);
         Line line2 = new Line(c, d);

@@ -1,10 +1,10 @@
-package Task2;
+package ru.courses.geometry;
 
-public class Point {
+public class PointForTask2 {
     private int x;
     private int y;
 
-    public Point(int x, int y) {
+    public PointForTask2(int x, int y) {
         this.x = x;
         this.y = y;
     }

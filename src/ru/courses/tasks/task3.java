@@ -1,4 +1,4 @@
-package Task3;
+package ru.courses.tasks;
 
 import Task2.Line;
 import Task2.Point;

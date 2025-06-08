@@ -1,17 +1,17 @@
-package Task2;
+package ru.courses.geometry;
 
 public class Line {
-    private Point start;
-    private Point end;
+    private PointForTask2 start;
+    private PointForTask2 end;
 
-    public Line(Point start, Point end) {
+    public Line(PointForTask2 start, PointForTask2 end) {
         this.start = start;
         this.end = end;
     }
 
     public Line(int x1, int y1, int x2, int y2) {
-        this.start = new Point(x1, y1);
-        this.end = new Point(x2, y2);
+        this.start = new PointForTask2(x1, y1);
+        this.end = new PointForTask2(x2, y2);
     }
 
     public double getLength() {
@@ -20,10 +20,10 @@ public class Line {
         return Math.sqrt(dx * dx + dy * dy);
     }
 
-    public Point getStart() {
+    public PointForTask2 getStart() {
         return start;
     }
-    public Point getEnd() {
+    public PointForTask2 getEnd() {
         return end;
     }
 

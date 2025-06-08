@@ -1,7 +1,9 @@
-import Task1.task1;
-import Task2.task2;
-import Task3.task3;
-import Task4.task4;
+package ru.courses.launcher;
+
+import ru.courses.tasks.task1;
+import ru.courses.tasks.task2;
+import ru.courses.tasks.task3;
+import ru.courses.tasks.task4;
 
 import java.util.Scanner;
 

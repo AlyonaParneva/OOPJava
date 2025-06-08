@@ -1,4 +1,4 @@
-package Task4;
+package ru.courses.city;
 
 import java.util.ArrayList;
 import java.util.List;
