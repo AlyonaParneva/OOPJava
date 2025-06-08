@@ -1,14 +1,16 @@
 package ru.courses.tasks;
 
-import Task2.Line;
-import Task2.Point;
+
+import ru.courses.geometry.Line;
+import ru.courses.geometry.PointForTask2;
+import ru.courses.geometry.PolyLine;
 
 public class task3 {
     public static void runTask3() {
-        Point p1 = new Point(1, 5);
-        Point p2 = new Point(2, 8);
-        Point p3 = new Point(5, 3);
-        Point p4 = new Point(8, 9);
+        PointForTask2 p1 = new PointForTask2(1, 5);
+        PointForTask2 p2 = new PointForTask2(2, 8);
+        PointForTask2 p3 = new PointForTask2(5, 3);
+        PointForTask2 p4 = new PointForTask2(8, 9);
 
         PolyLine polyLine = new PolyLine(p1, p2, p3, p4);
 

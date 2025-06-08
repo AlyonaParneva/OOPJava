@@ -1,5 +1,7 @@
 package ru.courses.tasks;
 
+import ru.courses.city.City;
+
 public class task4 {
     public static void runTask4() {
         City A = new City("A");
