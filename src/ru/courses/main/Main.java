@@ -1,4 +1,4 @@
-package ru.courses.launcher;
+package ru.courses.main;
 
 import ru.courses.tasks.task1;
 import ru.courses.tasks.task2;
